@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #228be6;
+    text-align: center;
+}
+header .logo {
+    padding: 25px;
+}
+
+nav {
+    text-align: center;
+    background-color: #3e98e6;
+}
+
+
+#topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#topnav {
+    display: flex;
+}
+
+#topnav a:hover {
+    cursor: pointer;
+}
+
+#center {
+    margin: auto;
+    flex: 2;
+}
+
+#topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#contenttitle {
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+.col h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.col {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    color: white;
+    transition: transform 0.2s;
+    box-shadow: #3e98e6;
+}
+
+.col h1 {
+    margin-bottom: 0px;
+}
+
+.col img {
+    height: 100%;
+    width: 100%;
+}
+
+.col:hover {
+    transform: scale(1.03);
+}
+
+.col h1 {
+    width: 100%;
+    background-color: #3e98e6;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #228be6;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+}
+
+#content {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
