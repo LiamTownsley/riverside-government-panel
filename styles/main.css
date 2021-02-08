@@ -104,6 +104,7 @@ nav {
 .col:hover {
     cursor: pointer;
     transform: scale(1.03);
+    filter: drop-shadow(0 0 5px #000);
 }
 
 
