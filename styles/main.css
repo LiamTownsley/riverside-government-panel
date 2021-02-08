@@ -190,3 +190,40 @@ form input[type="submit"]:hover {
 form input[type="submit"]:focus {
     border: 2px solid #208c4d;
 }
+
+#faq {
+    display: flex;
+    justify-content: center;
+}
+
+.faq-question {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: #228be6;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+}
+
+.faq-question.active::after {
+    content: "-";
+}
+
+.faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 10px;
+    font-size: xx-large;
+    top: calc(50% - 20px);
+}
+
+.faq-answer {
+    display: none;
+    text-align: justify;
+    font-size: small;
+    font-weight: 100;
+    margin-right: 20px;
+}
