@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riverside Roleplay - Police Panel</title>
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/support.css">
     <link rel="icon" href="../images/icon.png">
-    <script src="https://kit.fontawesome.com/99d3fc8a3a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/99d3fc8a3a.js" crossorigin="anonymous" defer></script>
     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <meta property="og:title" content="Riverside Roleplay - Government Panel" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://liamtownsley.github.io/riverside-government-panel/" />
@@ -16,10 +20,10 @@
     <meta property="og:description" content="This is the Government Panel for Riverside Roleplay." />
     <meta name="theme-color" content="#228be6">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
 
-    <script src="../scripts/main.js"></script>
-    <script src="../scripts/support.js"></script>
+    <script src="../scripts/main.js" defer></script>
+    <script src="../scripts/support.js" defer></script>
 
 </head>
 <body>
@@ -48,7 +52,7 @@
         <div id="content">
             <h1>Support</h1>
 
-            <h3>Before you request for help, have a look at this FAQ list and see if this assists you.</h3>
+            <h2>Before you request for help, have a look at this FAQ list and see if this assists you.</h2>
             <div id="faq">
                 <button id="question1" class="faq-question" onclick="toggleChild(1)">
                     <p>Question 1: Lorem Ispum</p>
@@ -83,14 +87,14 @@
             </div>
             <div id="contactus">
                 <h1>Contact Us</h1>
-                <h3>If this did not help, you can contact someone:</h3>
+                <h2>If this did not help, you can contact someone:</h2>
                 <div id="content">
                     <form action="../index.html" onsubmit="formSubmission()">
                         <label for="username">Name:</label>
                         <input type="text" id="username" placeholder="Enter your username." autofocus required>
         
                         <label for="email">E-Mail:</label>
-                        <input type="email" id="password" placeholder="Enter your e-mail." required>
+                        <input type="email" id="email" placeholder="Enter your e-mail." required>
                         
                         <label for="message">Your Message</label>
                         <textarea id="message" placeholder="Enter your message." required></textarea>
