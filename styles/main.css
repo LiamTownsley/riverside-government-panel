@@ -33,6 +33,11 @@ nav {
     display: flex;
 }
 
+#right {
+    position: absolute;
+    right: 0;
+}
+
 #topnav a:hover {
     cursor: pointer;
 }
@@ -66,6 +71,10 @@ nav {
     flex-wrap: wrap;
 }
 
+.flex-grid > a {
+    text-decoration: none;
+}
+
 .col {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -88,18 +97,37 @@ nav {
     transition: filter 0.4s;
 }
 
-.col img:hover {
+.col:hover img {
     filter: brightness(1);
 }
 
 .col:hover {
+    cursor: pointer;
     transform: scale(1.03);
 }
+
+
 
 .col h1 {
     width: 100%;
     background-color: #3e98e6;
     
+}
+
+.col#police h1 {
+    background-color: #3e98e6;
+}
+
+.col#nhs h1 {
+    background-color: #27ae60;
+}
+
+.col#sco h1 {
+    background-color: #144b70;
+}
+
+.col#nca h1 {
+    background-color: #222;
 }
 
 footer {
@@ -121,4 +149,44 @@ footer a {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 25px;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid #228be6;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    margin-top: 3px;
+}
+
+form input[type="submit"] {
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    width: 51%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+form input[type="submit"]:focus {
+    border: 2px solid #208c4d;
 }
