@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f9f2edb4-db1b-497a-9175-a482b2dce1f6/deploy-status)](https://app.netlify.com/sites/stoic-blackwell-5066d7/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9f2edb4-db1b-497a-9175-a482b2dce1f6/deploy-status)](https://governmentpanel.netlify.app/)
 [![GitHub issues](https://img.shields.io/github/issues/LiamTownsley/riverside-government-panel?style=flat-square)](https://github.com/LiamTownsley/riverside-government-panel/issues)
 [![GitHub forks](https://img.shields.io/github/forks/LiamTownsley/riverside-government-panel?style=flat-square)](https://github.com/LiamTownsley/riverside-government-panel/network)
 [![GitHub stars](https://img.shields.io/github/stars/LiamTownsley/riverside-government-panel)](https://github.com/LiamTownsley/riverside-government-panel/stargazers)
