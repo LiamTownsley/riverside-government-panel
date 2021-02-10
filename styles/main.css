@@ -236,3 +236,7 @@ form input[type="submit"]:focus {
     font-weight: 100;
     margin-right: 20px;
 }
+
+.faq-question:focus {
+    background-color: #3793df;
+}
